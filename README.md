@@ -1,4 +1,4 @@
-# pharmacy-front
+# e-Commerce front with vue.js 3 + bootstrap v5
 
 ## Project setup
 ```
