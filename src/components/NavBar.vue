@@ -3,8 +3,9 @@
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">Navbar</a>
 			<div class="d-flex flex-row navbar-nav">
-				<a class="nav-link active" aria-current="page" href="/">Accueil</a>
-				<a class="nav-link" href="/store">Boutique</a>
+				<router-link class="nav-link" aria-current="page" to="/">Accueil</router-link>
+				<router-link class="nav-link" aria-current="page" to="/store">Boutique</router-link>
+				<router-link class="nav-link" to="/login">Login</router-link>
 			</div>
 		</div>
 	</nav>

@@ -2,6 +2,13 @@ import { createStore } from 'vuex'
 
 export default createStore({
 	state: {
+		user: {
+			logged: false,
+			firstname: '',
+			lastname: '',
+			username: '',
+			password: '',
+		},
 		products: [],
 		cart: [],
 	},
